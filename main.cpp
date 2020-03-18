@@ -14,5 +14,5 @@ IO io;
 Logger logger;
 
 int main() {
-    
+    logger.init(); //Shows welcome message on program start.
 }
