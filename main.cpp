@@ -3,6 +3,9 @@
 #include "IO.cpp"
 using namespace std;
 
+//Imports:
+IO io;
+
 int main() {
-    IO io;
+    
 }
