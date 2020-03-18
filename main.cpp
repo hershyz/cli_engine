@@ -1,10 +1,17 @@
+//Standard
 #include <iostream>
-#include "IO.h"
-#include "IO.cpp"
-using namespace std;
 
 //Imports:
+#include "IO.h"
+#include "IO.cpp"
+#include "Logger.h"
+#include "Logger.cpp"
+
+using namespace std;
+
+//Objects:
 IO io;
+Logger logger;
 
 int main() {
     
