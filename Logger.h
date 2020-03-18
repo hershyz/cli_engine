@@ -5,6 +5,7 @@ class Logger {
     public:
         Logger();
         void help();
+        void init();
 };
 
 #endif
