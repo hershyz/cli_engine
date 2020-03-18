@@ -2,6 +2,7 @@
 #include <iostream>
 #include "Properties.h"
 #include "Properties.cpp"
+
 using namespace std;
 
 Properties properties;
@@ -19,4 +20,12 @@ void Logger::init() {
 //Help:
 void Logger::help() {
     
+}
+
+//Input:
+string Logger::input() {
+    cout << properties.prefix;
+    string returnX;
+    cin >> returnX;
+    return returnX;
 }
