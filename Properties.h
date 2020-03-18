@@ -7,6 +7,7 @@ class Properties {
     public:
         Properties();
         string version = "v0.1";
+        string prefix = "> ";
         string currentDir;
 };
 
