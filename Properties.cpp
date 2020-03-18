@@ -9,3 +9,4 @@ Properties::Properties() {
 
 string currentDir;
 string version = "v0.1";
+string prefix = "> ";
