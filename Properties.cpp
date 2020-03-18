@@ -7,6 +7,5 @@ Properties::Properties() {
 
 }
 
-//string version = "v0.1";
 string currentDir;
 string version = "v0.1";
