@@ -7,6 +7,7 @@ class Logger {
         void help();
         void init();
         string input();
+        void parse(string command, string arg);
 };
 
 #endif
