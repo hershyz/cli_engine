@@ -39,5 +39,7 @@ int main() {
 
             i++;
         }
+
+        logger.parse(command, arg1);
     }
 }
