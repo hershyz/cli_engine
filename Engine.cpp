@@ -1,15 +1,26 @@
 #include <iostream>
 #include <bits/stdc++.h>
+#include <filesystem>
+#include <stdio.h>
+#include <direct.h>
 #include "Engine.h"
 #include "Help.h"
 #include "Help.cpp"
 using namespace std;
 
 Help help; //Creates help object.
+string workingDirectory;
+
+string current_working_directory() {
+    char* cwd = _getcwd(0, 0);
+    string working_directory(cwd);
+    free(cwd);
+    return working_directory;
+}
 
 //Constructor:
 Engine::Engine() {
-
+    workingDirectory = current_working_directory();
 }
 
 //Parse Command:
